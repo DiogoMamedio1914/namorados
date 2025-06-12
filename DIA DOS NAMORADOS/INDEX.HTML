@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nossa Retrospectiva</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Segoe UI',sans-serif;background:linear-gradient(to right,#ffe6f0,#fff0f5);color:#600c4f;overflow-x:hidden}
+    header{text-align:center;padding:50px 20px 20px}
+    header h1{font-size:2em;margin-bottom:10px}
+    header p{font-size:1em}
+    #toggleMusic{background:none;border:none;font-size:1.5em;cursor:pointer;color:#ff69b4;margin-top:10px}
+    .timeline{max-width:800px;margin:0 auto;padding:20px}
+    .event{background:#fff;border-left:5px solid #ff69b4;padding:20px;margin:20px 0;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
+    .event h2{font-size:1.2em;margin-bottom:10px}
+    .event p{font-size:1em}
+    .event img{width:100%;height:auto;border-radius:10px;margin-top:10px}
+    footer{text-align:center;padding:30px 10px;font-size:1em;color:#fff;background:#ff69b4}
+    .hearts{position:fixed;width:100%;height:100%;top:0;left:0;pointer-events:none;overflow:hidden;z-index:0}
+    .floating-heart{position:absolute;font-size:24px;animation:float 5s linear infinite;top:100%}
+    @keyframes float{0%{transform:translateY(0);opacity:1}100%{transform:translateY(-120vh);opacity:0}}
+    audio{display:none}
+    @media(max-width:600px){
+      header h1{font-size:1.5em}
+      .event h2{font-size:1em}
+      .event p{font-size:.95em}
+      #toggleMusic{font-size:1.2em}
+    }
+  </style>
+</head>
+<body>
+  <div class="hearts"></div>
+  <header>
+    <h1>Retrospectiva: Eu & Você 💖</h1>
+    <p>Já é nosso segundo dia dos namorados, muita coisa aconteceu, principalmente coisas boas, né meu amor?</p>
+    <button id="toggleMusic">🔊</button>
+  </header>
+
+  <audio id="bgMusic" src="[SPOTDOWNLOADER.COM] Lisboa.mp3" loop></audio>
+
+  <section class="timeline">
+    <div class="event">
+      <h2>12/12/2023 – Nossos primeiros beijinhos</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.10.jpeg" alt="Primeiros beijinhos">
+      <p>Foi o começo de algo incrível. Mal sabíamos que viraria amor!</p>
+    </div>
+    <div class="event">
+      <h2>24/12/2023 – Primeiro natal juntos</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.11 (1).jpeg" alt="Primeiro natal juntos">
+    </div>
+    <div class="event">
+      <h2>31/12/2023 – Primeiro ano novo</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.11 (2).jpeg" alt="Primeiro ano novo">
+    </div>
+    <div class="event">
+      <h2>25/02/2024 – Primeiro Carnaval</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.12 (1).jpeg" alt="Primeiro Carnaval">
+    </div>
+    <div class="event">
+      <h2>14/04/2024 – Viagem para Tambaú</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.12 (2).jpeg" alt="Viagem para Tambaú">
+    </div>
+    <div class="event">
+      <h2>20/04/2024 – Primeiro Buquê</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.12.jpeg" alt="Primeiro buquê">
+    </div>
+    <div class="event">
+      <h2>15/05/2024 – Thermas</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.13 (1).jpeg" alt="Thermas">
+      <p>Risos, fotos e memórias que nunca esqueceremos.</p>
+    </div>
+    <div class="event">
+      <h2>25/05/2024 – Segundo Buquê</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.13.jpeg" alt="Segundo buquê">
+    </div>
+    <div class="event">
+      <h2>10/06/2024 – Rodriacqua</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.14 (1).jpeg" alt="Rodriacqua">
+    </div>
+    <div class="event">
+      <h2>20/06/2024 – Comida</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.14 (2).jpeg" alt="Comida">
+    </div>
+    <div class="event">
+      <h2>05/07/2024 – Doces</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.14.jpeg" alt="Doces">
+    </div>
+    <div class="event">
+      <h2>12/09/2024 – 1 aninho da gente!</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.15 (1).jpeg" alt="Aniversário de namoro">
+    </div>
+    <div class="event">
+      <h2>15/10/2024 – Carnavrauuu</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.15 (2).jpeg" alt="Carnavrauu">
+    </div>
+    <div class="event">
+      <h2>05/11/2024 – Parque aquático</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.15.jpeg" alt="Parque aquático">
+    </div>
+    <div class="event">
+      <h2>31/03/2025 – Páscoa</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.16 (1).jpeg" alt="Páscoa">
+    </div>
+    <div class="event">
+      <h2>25/04/2025 – Praia</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.16 (2).jpeg" alt="Praia">
+    </div>
+    <div class="event">
+      <h2>10/05/2025 – Mais Buquê</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.16.jpeg" alt="Mais buquê">
+    </div>
+    <div class="event">
+      <h2>18/05/2025 – Aniversário do meu amor</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.17 (1).jpeg" alt="Aniversário do amor">
+    </div>
+    <div class="event">
+      <h2>05/06/2025 – Última foto decente</h2>
+      <img src="WhatsApp Image 2025-06-11 at 16.57.17 (2).jpeg" alt="Foto recente">
+    </div>      
+  </section>
+
+  <footer>
+    <p>Feito com amor ❤️ por nós</p>
+  </footer>
+
+  <script>
+    const heartsContainer=document.querySelector(".hearts");
+    function createHeart(){
+      const heart=document.createElement("div");
+      heart.textContent="💗";
+      heart.classList.add("floating-heart");
+      heart.style.left=`${Math.random()*100}vw`;
+      heart.style.animationDuration=`${2+Math.random()*3}s`;
+      heartsContainer.appendChild(heart);
+      setTimeout(()=>heart.remove(),5000);
+    }
+    setInterval(createHeart,300);
+
+    const bgMusic=document.getElementById("bgMusic");
+    const toggleBtn=document.getElementById("toggleMusic");
+    toggleBtn.addEventListener("click",()=>{
+      if(bgMusic.paused){
+        bgMusic.play();
+        toggleBtn.textContent="🔊";
+      }else{
+        bgMusic.pause();
+        toggleBtn.textContent="🔇";
+      }
+    });
+  </script>
+</body>
+</html>
